@@ -1,7 +1,9 @@
 # DAA-Assignment2 - Simple Container Data Structures
 
-In this assignment you are to implement some simple container data structures like
++ In this assignment you are to implement some simple container data structures like
 resizable array, linked list, stack, queue, deque and heap.
++ In all the problems below you are not allowed to use any java library collections except vanilla `int []`.
++ Be ready to explain any of the implemented methods and justify their running times.
 
 #### Problem 1 - IntArray and IntArrayStack (20 points)
 
@@ -23,3 +25,9 @@ resizable array, linked list, stack, queue, deque and heap.
 + **(10 points)**. Implement `IntStackQueue`, a queue of integers using `IntArrayStack` as back-end, according to the API specified in the [IntStackQueue](src/IntStackQueue.java) class.
 + **(10 points)**. Implement `IntQueueStack`, a stack of integers, based on `IntLinkedListQueue`, according to the API specified in the [IntQueueStack](src/IntQueueStack.java) class.
 
+#### Problem 5 - IntMinHeapTopDown and IntMinHeapBottomUp (20 points)
++ **(10 points)**. Implement `IntMinHeapTopDown`, a minheap of integers using `IntArray` as back-end, according to the API specified in the [IntMinHeapTopDown](src/IntMinHeapTopDown.java) class.
++ **(10 points)**. Implement `IntMinHeapBottomUp`, a minheap of integers using `IntArray` as back-end, according to the API specified in the [IntMinHeapBottomUp](src/IntMinHeapBottomUp.java) class.
+
+
+Good Luck!

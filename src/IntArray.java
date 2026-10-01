@@ -35,6 +35,10 @@ public class IntArray {
         return false;
     }
 
+    public void add(int[] values){
+        // adds entire array values
+    }
+
     @Override
     public String toString() {
         // return String representation of array
